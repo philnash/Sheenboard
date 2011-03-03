@@ -33,17 +33,17 @@ ol, ul {
 	list-style: none;
 }
 
-#header, #footer{
-  display:block;
+#header{
   background: #a90329;
   background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019));
-}
-#header{
   border-bottom:1px solid #a90329;
 }
 #footer{
-  border-top:1px solid #6d0019;
+  background: #a90329;
+  background: -moz-linear-gradient(top, #6d0019 0%, #8f0222 44%, #a90329 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6d0019), color-stop(44%,#8f0222), color-stop(100%,#a90329));
+  border-top:1px solid #a90329;
 }
 #header h1{
   font-size:2.2em;
@@ -57,7 +57,7 @@ ol, ul {
   line-height:2;
   font-size:1.4em;
   color:#fff;
-  padding:5px 10px;
+  padding:5px 15px;
 }
 #footer p a{
   color:#fff;
@@ -70,18 +70,19 @@ div#main{
 }
 
 ul#sounds{
-  padding:10px 0 10px 10px;
+  padding:15px 0 15px 15px;
 }
 
 ul#sounds li{
   display:block;
   float:left;
-  height:138px;
-  width:138px;
-  margin:0 10px 10px 0;
+  height:88px;
+  width:135px;
+  margin:0 15px 15px 0;
   border:1px solid #a90329;
   background:#a90329;
   -moz-box-shadow:inset 0 0 40px #6d0019;
+  -webkit-box-shadow:inset 0 0 40px #6d0019;
   box-shadow:inset 0 0 40px #6d0019;
 }
 ul#sounds li audio{
@@ -90,12 +91,12 @@ ul#sounds li audio{
 }
 ul#sounds li a{
   display:block;
-  padding:30px 10px;
-  height:78px;
+  padding:25px 10px;
+  height:38px;
   font-size:1.6em;
   color:#fff;
   text-decoration:none;
-  line-height:30px;
+  line-height:20px;
   text-align:center;
   text-shadow:0 -1px 0 rgba(0, 0, 0, 0.5);
   font-weight:bold;
