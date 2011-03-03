@@ -351,6 +351,7 @@
       e.preventDefault();
       var $link = $(this),
           audio = $link.parent().find('audio')[0];
+      audio.currentTime = 0;
       audio.play();
     });
   });
