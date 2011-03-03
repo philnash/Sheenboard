@@ -1,0 +1,102 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+h1,h2,h3{
+  font-weight:normal;
+}
+html{
+  height:100%;
+}
+body {
+	line-height: 1;
+	font-size:62.5%;
+	color:#333;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  min-height:100%;
+  position:relative;
+}
+ol, ul {
+	list-style: none;
+}
+
+#header, #footer{
+  display:block;
+  background: #a90329;
+  background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019));
+}
+#header{
+  border-bottom:1px solid #a90329;
+}
+#footer{
+  border-top:1px solid #6d0019;
+}
+#header h1{
+  font-size:2.2em;
+  line-height:2;
+  color:#fff;
+  text-align:center;
+  text-shadow:0 -1px 0 rgba(0, 0, 0, 0.5);
+  font-weight:bold;
+}
+#footer p{
+  line-height:2;
+  font-size:1.4em;
+  color:#fff;
+  padding:5px 10px;
+}
+#footer p a{
+  color:#fff;
+}
+
+div#main{
+  width:100%;
+  overflow:hidden;
+  background: #111;
+}
+
+ul#sounds{
+  padding:10px 0 10px 10px;
+}
+
+ul#sounds li{
+  display:block;
+  float:left;
+  height:138px;
+  width:138px;
+  margin:0 10px 10px 0;
+  border:1px solid #a90329;
+  background:#a90329;
+  -moz-box-shadow:inset 0 0 40px #6d0019;
+  box-shadow:inset 0 0 40px #6d0019;
+}
+ul#sounds li audio{
+  display:none;
+  visibility:hidden;
+}
+ul#sounds li a{
+  display:block;
+  padding:30px 10px;
+  height:78px;
+  font-size:1.6em;
+  color:#fff;
+  text-decoration:none;
+  line-height:30px;
+  text-align:center;
+  text-shadow:0 -1px 0 rgba(0, 0, 0, 0.5);
+  font-weight:bold;
+}
